@@ -7,13 +7,14 @@ We use:
 - `benchmark.py` — count tokens for JSON vs TOON (uses `toon_format.count_tokens` or `tiktoken` fallback)
 
 **Result from our benchmark:**
---- TOON vs JSON token benchmark ---
-Model: gpt-4o-mini
-JSON length (chars): 4076
-TOON length (chars): 859
-JSON tokens: 1048
-TOON tokens: 369
-Reduction: 64.79%
+--- TOON vs JSON token benchmark ---<br>
+Model: gpt-4o-mini<br>
+JSON length (chars): 4076<br>
+TOON length (chars): 859<br>
+JSON tokens: 1048<br>
+TOON tokens: 369<br>
+Reduction: 64.79%<br>
+
 
 ## 📂 Project Structure
 
@@ -40,11 +41,12 @@ pip install git+https://github.com/toon-format/toon-python.git
 
 ## 📝 Sample Dataset:
 
-sample.json contains 30 employee records from a fictional company
+sample.json contains 30 employee records from a fictional company<br>
 sample.toon is a compact TOON representation
 
 ## 📬 Contact:
 LinkedIn: https://www.linkedin.com/in/susma-r/
+
 
 
 
