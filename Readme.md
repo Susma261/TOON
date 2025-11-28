@@ -7,18 +7,18 @@ We use:
 - `benchmark.py` — count tokens for JSON vs TOON (uses `toon_format.count_tokens` or `tiktoken` fallback)
 
 **Result from our benchmark:**<br>
-
-<img width="333" height="128" alt="Screenshot 2025-11-28 150316" src="https://github.com/user-attachments/assets/e9f69c19-59e8-4d17-a5e9-6b572b4d7c2f" />
+<p align="center">
+<img width="333" height="128" alt="Screenshot 2025-11-28 150316" src="https://github.com/user-attachments/assets/e9f69c19-59e8-4d17-a5e9-6b572b4d7c2f" /></p>
 
 ## 📂 Project Structure
-
+<p align="center">
 ├── convert.py          
 ├── benchmark.py       
 ├── sample.json         
 ├── sample.toon         
 ├── requirements.txt   
 └── README.md
-
+</p>
 ## 🔧 Installation:
 
 git clone https://github.com/Susma261/TOON.git <br>
@@ -40,6 +40,7 @@ cd TOON
 
 ## 📬 Contact:
 LinkedIn: https://www.linkedin.com/in/susma-r/
+
 
 
 
