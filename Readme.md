@@ -15,7 +15,7 @@ JSON tokens: 1048
 TOON tokens: 369
 Reduction: 64.79%
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ├── convert.py          
 ├── benchmark.py       
@@ -24,9 +24,9 @@ Reduction: 64.79%
 ├── requirements.txt   
 └── README.md
 
-# 🔧 Installation:
+## 🔧 Installation:
 
-git clone https://github.com/Susma261/TOON.git
+git clone https://github.com/Susma261/TOON.git <br>
 cd TOON
 
 python -m venv venv
@@ -35,16 +35,17 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
-If toon_format is not installable through pip, install the official repo:
+*If toon_format is not installable through pip, install the official repo:*<br>
 pip install git+https://github.com/toon-format/toon-python.git
 
-# 📝 Sample Dataset:
+## 📝 Sample Dataset:
 
 sample.json contains 30 employee records from a fictional company
 sample.toon is a compact TOON representation
 
-# 📬 Contact:
+## 📬 Contact:
 LinkedIn: https://www.linkedin.com/in/susma-r/
+
 
 
 
