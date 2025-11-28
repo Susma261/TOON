@@ -30,14 +30,14 @@ Reduction: 64.79%<br>
 git clone https://github.com/Susma261/TOON.git <br>
 cd TOON
 
-python -m venv venv
-source venv/bin/activate       
-venv\Scripts\activate          
+- `python -m venv venv`
+- `source venv/bin/activate`
+- `venv\Scripts\activate`         
 
 - `pip install -r requirements.txt`
 
 *If toon_format is not installable through pip, install the official repo:*<br>
-https://github.com/toon-format/toon-python.git
+- `https://github.com/toon-format/toon-python.git`
 
 ## 📝 Sample Dataset:
 
@@ -46,6 +46,7 @@ sample.toon is a compact TOON representation
 
 ## 📬 Contact:
 LinkedIn: https://www.linkedin.com/in/susma-r/
+
 
 
 
