@@ -27,11 +27,11 @@ Reduction: 64.79%
 # 🔧 Installation:
 
 git clone https://github.com/Susma261/TOON.git
-cd <repo-name>
+cd TOON
 
 python -m venv venv
-source venv/bin/activate       # macOS/Linux
-venv\Scripts\activate          # Windows
+source venv/bin/activate       
+venv\Scripts\activate          
 
 pip install -r requirements.txt
 
@@ -45,6 +45,7 @@ sample.toon is a compact TOON representation
 
 # 📬 Contact:
 LinkedIn: https://www.linkedin.com/in/susma-r/
+
 
 
 
