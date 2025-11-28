@@ -1,0 +1,35 @@
+employees[30]{id,name,role,salary}:
+  1,Alice,Engineer,90000
+  2,Bob,Engineer,92000
+  3,Charlie,Engineer,91000
+  4,David,Engineer,90500
+  5,Eve,Engineer,91500
+  6,Frank,Engineer,89000
+  7,Grace,Engineer,93000
+  8,Helen,Engineer,94000
+  9,Ian,Engineer,90000
+  10,Jack,Engineer,89000
+  11,Kim,Engineer,91000
+  12,Liam,Engineer,92000
+  13,Mia,Engineer,90500
+  14,Noah,Engineer,91500
+  15,Olivia,Engineer,93000
+  16,Paul,Engineer,91000
+  17,Quinn,Engineer,90500
+  18,Ryan,Engineer,91000
+  19,Sophia,Engineer,90000
+  20,Tom,Engineer,89000
+  21,Uma,Engineer,92000
+  22,Victor,Engineer,93000
+  23,Wendy,Engineer,94000
+  24,Xavier,Engineer,90000
+  25,Yara,Engineer,90500
+  26,Zane,Engineer,91000
+  27,Abel,Engineer,90000
+  28,Bea,Engineer,92000
+  29,Carl,Engineer,91500
+  30,Dana,Engineer,93000
+company:
+  name: Suki AI Solutions
+  founded: 2018
+  location: Bengaluru
