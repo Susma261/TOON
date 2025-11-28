@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-"""
-convert.py - uses toon_format (official)
-Usage:
-  python convert.py to_toon sample_employees.json
-  python convert.py from_toon sample_employees.toon
-"""
+
 import argparse, json
 from pathlib import Path
 
