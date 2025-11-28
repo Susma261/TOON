@@ -8,7 +8,7 @@ We use:
 
 **Result from our benchmark:**<br>
 
-1<img width="333" height="128" alt="Screenshot 2025-11-28 150316" src="https://github.com/user-attachments/assets/e9f69c19-59e8-4d17-a5e9-6b572b4d7c2f" />
+<img width="333" height="128" alt="Screenshot 2025-11-28 150316" src="https://github.com/user-attachments/assets/e9f69c19-59e8-4d17-a5e9-6b572b4d7c2f" />
 
 ## 📂 Project Structure
 
@@ -40,6 +40,7 @@ cd TOON
 
 ## 📬 Contact:
 LinkedIn: https://www.linkedin.com/in/susma-r/
+
 
 
 
