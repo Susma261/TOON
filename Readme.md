@@ -15,7 +15,7 @@ JSON tokens: 1048
 TOON tokens: 369
 Reduction: 64.79%
 
-## 📂 Project Structure
+***📂 Project Structure***
 
 ├── convert.py          
 ├── benchmark.py       
@@ -43,4 +43,5 @@ sample.toon is a compact TOON representation
 
 ## 📬 Contact
 LinkedIn: https://www.linkedin.com/in/susma-r/
+
 
