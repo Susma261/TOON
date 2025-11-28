@@ -6,7 +6,7 @@ We use:
 - `convert.py` — convert JSON → TOON and TOON → JSON (uses `toon_format.encode` / `decode`)
 - `benchmark.py` — count tokens for JSON vs TOON (uses `toon_format.count_tokens` or `tiktoken` fallback)
 
-**Result from our benchmark:**
+**Result from our benchmark:**<br>
 --- TOON vs JSON token benchmark ---<br>
 Model: gpt-4o-mini<br>
 JSON length (chars): 4076<br>
@@ -34,10 +34,10 @@ python -m venv venv
 source venv/bin/activate       
 venv\Scripts\activate          
 
-pip install -r requirements.txt
+- `pip install -r requirements.txt`
 
 *If toon_format is not installable through pip, install the official repo:*<br>
-pip install git+https://github.com/toon-format/toon-python.git
+https://github.com/toon-format/toon-python.git
 
 ## 📝 Sample Dataset:
 
@@ -46,6 +46,7 @@ sample.toon is a compact TOON representation
 
 ## 📬 Contact:
 LinkedIn: https://www.linkedin.com/in/susma-r/
+
 
 
 
