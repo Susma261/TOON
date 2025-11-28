@@ -1,16 +1,13 @@
-#!/usr/bin/env python3
 import argparse
 import json
 from pathlib import Path
 
-# Prefer the official python TOON package if installed
 try:
     from toon_format import encode as to_toon, count_tokens as toon_count_tokens
 except Exception:
     to_toon = None
     toon_count_tokens = None
 
-# Fallback to a local `toon` package if you really have it (keeps compatibility)
 if to_toon is None:
     try:
         from toon import to_toon  # older/other package name
@@ -49,18 +46,15 @@ def main():
     if not fp.exists():
         raise SystemExit(f'file not found: {fp}')
 
-    # Read JSON with utf-8-sig to avoid BOM issues on Windows
     json_text = fp.read_text(encoding='utf-8-sig')
     try:
         json_obj = json.loads(json_text)
     except Exception as e:
         raise SystemExit(f"Failed to parse JSON: {e}")
 
-    # Use toon_format.encode (to_toon) if available; otherwise produce a simple fallback
     if callable(to_toon):
         toon_text = to_toon(json_obj)
     else:
-        # Very small fallback converter (for simple data). For full features, install toon_format.
         def _simple_to_toon(obj, indent=0):
             pad = "\t" * indent
             lines = []
