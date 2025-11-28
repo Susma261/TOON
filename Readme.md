@@ -41,11 +41,12 @@ cd TOON
 
 ## 📝 Sample Dataset:
 
-sample.json contains 30 employee records from a fictional company<br>
-sample.toon is a compact TOON representation
+- `sample.json` contains 30 employee records from a fictional company<br>
+- `sample.toon` is a compact TOON representation
 
 ## 📬 Contact:
 LinkedIn: https://www.linkedin.com/in/susma-r/
+
 
 
 
